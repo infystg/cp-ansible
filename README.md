@@ -23,6 +23,13 @@ The services that can be installed from this repository are:
 
 You can find the documentation for running CP-Ansible at https://docs.confluent.io/current/tutorials/cp-ansible/docs/index.html.
 
+## Usage
+
+ 1. Change the hosts and authentication details in `hosts.yml`
+ 2. For additional configuration look at `hosts_example.yml`
+ 3. Run the ansible scripts
+ `ansible-playbook -i hosts.yml all.ym`
+
 ## Contributing
 
 
